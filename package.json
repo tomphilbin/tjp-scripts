@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/tomphilbin/tjp-scripts.git",
   "author": "Tom Philbin <tomphilbin@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "^0.7.1"
+  }
 }
