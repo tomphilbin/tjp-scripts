@@ -1,0 +1,9 @@
+{
+  "name": "@tjp/scripts",
+  "version": "1.0.0",
+  "description": "Common scripts for my node apps",
+  "main": "index.js",
+  "repository": "https://github.com/tomphilbin/tjp-scripts.git",
+  "author": "Tom Philbin <tomphilbin@users.noreply.github.com>",
+  "license": "MIT"
+}
