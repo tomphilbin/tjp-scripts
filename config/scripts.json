@@ -1,0 +1,28 @@
+[
+  {
+    "name": "format",
+    "description": "Format code.",
+    "script":
+      "prettier --single-quote --trailing-comma es5 --write 'src/**/*.js'"
+  },
+  {
+    "name": "lint",
+    "description": "Lint code.",
+    "script": "eslint 'src/**/*.js'"
+  },
+  {
+    "name": "start",
+    "description": "Start the app.",
+    "script": "node src/index.js"
+  },
+  {
+    "name": "test",
+    "description": "Run all unit tests.",
+    "script": "jest"
+  },
+  {
+    "name": "test:watch",
+    "description": "Run all unit tests and watch for file changes.",
+    "script": "jest --watch"
+  }
+]
