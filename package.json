@@ -2,11 +2,34 @@
   "name": "@tjp/scripts",
   "version": "1.0.0",
   "description": "Common scripts for my node apps",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "tjp-scripts": "./src/index.js"
+  },
+  "scripts": {
+    "format": "node . format",
+    "lint": "node . lint",
+    "test": "node . test",
+    "test:watch": "node . test:watch"
+  },
+  "dependencies": {
+    "@std/esm": "^0.7.1",
+    "eslint": "^4.6.1",
+    "jest": "^21.0.1",
+    "jsonfile": "^3.0.1",
+    "prettier": "^1.6.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  },
   "repository": "https://github.com/tomphilbin/tjp-scripts.git",
   "author": "Tom Philbin <tomphilbin@users.noreply.github.com>",
-  "license": "MIT",
-  "dependencies": {
-    "@std/esm": "^0.7.1"
-  }
+  "license": "MIT"
 }
